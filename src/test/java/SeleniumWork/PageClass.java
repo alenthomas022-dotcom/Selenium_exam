@@ -9,13 +9,6 @@ public class PageClass {
 
     WebDriver driver;
 
-    // Constructor
-    public PageClass(WebDriver driver) 
-    {
-    this.driver = driver;
-    PageFactory.initElements(driver, this);
-    }
-
     // Login elements
 
     @FindBy(xpath="//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input")WebElement username;
@@ -38,7 +31,13 @@ public class PageClass {
     @FindBy(xpath="//*[@id=\"app\"]/div[1]/div[1]/header/div[1]/div[3]/ul/li/span")WebElement profile;
     @FindBy(xpath="//a[text()='Logout']")WebElement logout;
 
-
+ // Constructor
+    public PageClass(WebDriver driver) 
+    {
+    this.driver = driver;
+    PageFactory.initElements(driver, this);
+    }
+    
     // Login method
     public void login(String user, String pass) {
         username.sendKeys(user);
