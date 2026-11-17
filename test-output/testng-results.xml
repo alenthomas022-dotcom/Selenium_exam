@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-17T12:17:09 IST" name="Default suite" finished-at="2026-11-17T12:17:37 IST" duration-ms="28022">
+    <groups>
+    </groups>
+    <test started-at="2026-11-17T12:17:09 IST" name="Default test" finished-at="2026-11-17T12:17:37 IST" duration-ms="28022">
+      <class name="SeleniumWork.TestClass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:SeleniumWork.TestClass@235834f2]" started-at="2026-11-17T12:17:09 IST" name="setup" finished-at="2026-11-17T12:17:15 IST" duration-ms="5695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="orangeHRMTest()[pri:0, instance:SeleniumWork.TestClass@235834f2]" started-at="2026-11-17T12:17:15 IST" name="orangeHRMTest" finished-at="2026-11-17T12:17:37 IST" duration-ms="22019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orangeHRMTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:SeleniumWork.TestClass@235834f2]" started-at="2026-11-17T12:17:37 IST" name="closeBrowser" finished-at="2026-11-17T12:17:37 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SeleniumWork.TestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
